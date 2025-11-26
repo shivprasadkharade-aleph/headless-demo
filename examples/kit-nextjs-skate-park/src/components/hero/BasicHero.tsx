@@ -32,7 +32,8 @@ export const Default = (props: ContentBlockProps): JSX.Element => {
   return (
     <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
       <div className="component-content">
-        <p>{props.fields.Title.value}</p>
+        <Text field={props.fields.Title} />
+        {/* <p>{props.fields.Title.value}</p> */}
       </div>
     </div>
   );
