@@ -1,45 +1,43 @@
-import React, { JSX } from 'react';
-import {TextField, ComponentParams, ComponentRendering, NextImage as ContentSdkImage, Link as ContentSdkLink, Text, ImageField, LinkField, } from '@sitecore-content-sdk/nextjs';
+import React , {JSX} from 'react';
+import {
+  Text,
+  RichText,
+  Field,
+  withDatasourceCheck,
+  ComponentParams,
+  ComponentRendering,
+  GetComponentServerProps,
+  ImageField,
+  LinkField,
+  NextImage as ContentSdkImage,
+  Link,
+} from '@sitecore-content-sdk/nextjs';
+import ContentBlock from 'components/content-block/ContentBlock';
 
 interface BasicHeroProps {
   rendering: ComponentRendering & { params: ComponentParams };
   params: ComponentParams;
 }
+type ContentBlockProps = BasicHeroProps & {
+  fields: {
+    Title: Field<string>;
+    SubText: Field<string>;
+    Image: ImageField
+    CTALink: LinkField
+  };
+};
 
-export const Default = (props: BasicHeroProps): JSX.Element => {
-  console.log('Rendering BasicHero with props:', props);
-
-  const fields = props.rendering?.fields ?? {};
-
+export const Default = (props: ContentBlockProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const imagePath = fields.Image;
-  const TitleText = fields.Title;
-  const SubTitlText = fields.SubText;
-  const CTALinkText = fields.Link;
-
+  console.log('Rendering BasicHero:', props.fields);
 
   return (
-    <div className="container-wrapper"><div className="component container-default col-12 container">
-    <section className="hero">
-    <div className="hero__media">
-      <ContentSdkImage className="hero__img" field={imagePath as ImageField} />
-      <div className="hero__overlay"></div>
+    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+      <div className="component-content">
+        <Text field={props.fields.Title} />
+        <ContentSdkImage field={props.fields.Image} alt="Hero Image" />
+        
+      </div>
     </div>
-
-    <div className="hero__content">
-        <Text tag='h1' className ="hero__title hero__padding" field={TitleText as TextField}></Text>
-        {/* <h1 className="hero__title hero__padding">{TitleText}</h1> */}
-
-        <p className="hero__subtitle">
-          <Text field={SubTitlText as TextField}></Text>
-        </p>
-
-        <div className="hero__cta">
-            <ContentSdkLink className="btn" field={CTALinkText as LinkField} />
-        </div>
-    </div>
-</section>
-</div>
-</div>
   );
 };
