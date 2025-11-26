@@ -5,6 +5,9 @@ import {
   NextImage as ContentSdkImage,
   Link as ContentSdkLink,
   Text,
+  ImageField,
+  LinkField,
+  TextField,          // ← needed for Title / SubText
 } from '@sitecore-content-sdk/nextjs';
 
 interface BasicHeroProps {
@@ -14,8 +17,6 @@ interface BasicHeroProps {
 
 export const Default = (props: BasicHeroProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-
-  // Safely access fields (prevents crashes when fields are missing)
   const fields = props.rendering?.fields ?? {};
 
   return (
@@ -26,8 +27,7 @@ export const Default = (props: BasicHeroProps): JSX.Element => {
             {fields.Image && (
               <ContentSdkImage
                 className="hero__img"
-                field={fields.Image}
-                // Optional but recommended for hero images
+                field={fields.Image as ImageField}
                 fill
                 priority
                 sizes="100vw"
@@ -38,16 +38,16 @@ export const Default = (props: BasicHeroProps): JSX.Element => {
 
           <div className="hero__content">
             <h1 className="hero__title hero__padding">
-              <Text field={fields.Title} />
+              <Text field={fields.Title as TextField} />
             </h1>
 
             <p className="hero__subtitle">
-              <Text field={fields.SubText} />
+              <Text field={fields.SubText as TextField} />
             </p>
 
             <div className="hero__cta">
               {fields.Link && (
-                <ContentSdkLink className="btn" field={fields.Link} />
+                <ContentSdkLink className="btn" field={fields.Link as LinkField} />
               )}
             </div>
           </div>
