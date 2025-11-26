@@ -1,4 +1,4 @@
-import React, {JSX} from 'react';
+import React, { JSX } from 'react';
 import ContentBlock from 'components/content-block/ContentBlock';
 import { ComponentParams, ComponentRendering } from '@sitecore-content-sdk/nextjs';
 import {
@@ -10,7 +10,7 @@ import {
   ImageField,
   LinkField,
   NextImage as ContentSdkImage,
-  Link,
+  Link as ContentSdkLink,
 } from '@sitecore-content-sdk/nextjs';
 interface BasicHeroProps {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -22,22 +22,38 @@ type ContentBlockProps = BasicHeroProps & {
     Title: Field<string>;
     SubText: Field<string>;
     Image: ImageField
-    CTALink: LinkField
+    Link: LinkField
   };
 };
 
 export const Default = (props: ContentBlockProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  console.log('BasicHero props', props.fields);
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
-      <div className="component-content">
-        <Text tag='h1' field={props.fields.Title} />
-        <Text class="subtext" field={props.fields.SubText} />
-        <ContentSdkImage field={props.fields.Image} alt="Hero Image" />
-        <Link field={props.fields.CTALink}/>
-        {/* <p>{props.fields.Title.value}</p> */}
-      </div>
+
+    <div className="container-wrapper"><div className="component container-default col-12 container">
+      <section className="hero">
+        <div className="hero__media">
+          <ContentSdkImage className="hero__img" field={props.fields.Image} />
+          <div className="hero__overlay"></div>
+        </div>
+
+        <div className="hero__content">
+          <Text tag='h1' className="hero__title hero__padding" field={props.fields.Title}></Text>
+          {/* <h1 className="hero__title hero__padding">{TitleText}</h1> */}
+
+          <p className="hero__subtitle">
+            <Text field={props.fields.SubText}/>
+          </p>
+
+          <div className="hero__cta">
+            <a className='btn' href={props.fields.Link.value.href} target={props.fields.Link.value.target}>{props.fields.Link.value.text}</a>
+            
+          </div>
+        </div>
+      </section>
+    </div>
     </div>
   );
 };
