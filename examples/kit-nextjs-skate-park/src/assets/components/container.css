@@ -2,6 +2,7 @@
 
 .container-wrapper {
   @apply w-full;
+  padding-bottom: 25px;
 }
 
 .component {
