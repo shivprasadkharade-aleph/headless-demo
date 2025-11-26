@@ -51,5 +51,3 @@ Additional Info: You do not have to create rendering host items in XM Cloud as t
 
 
 [Documentation](https://doc.sitecore.com/xmc/en/developers/content-sdk/sitecore-content-sdk-for-xm-cloud.html)
-
-
