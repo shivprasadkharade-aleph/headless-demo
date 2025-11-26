@@ -1,8 +1,7 @@
 /* component container */
 
 .container-wrapper {
-  @apply w-full;  
-  padding-bottom: 25px;
+  @apply w-full;
 }
 
 .component {
