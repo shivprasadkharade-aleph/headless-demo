@@ -32,12 +32,8 @@ export const Default = (props: ContentBlockProps): JSX.Element => {
   console.log('Rendering BasicHero:', props.fields);
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
-      <div className="component-content">
-        <Text field={props.fields.Title} />
-        <ContentSdkImage field={props.fields.Image} alt="Hero Image" />
-        
-      </div>
+    <div>
+      Hello User
     </div>
   );
 };
