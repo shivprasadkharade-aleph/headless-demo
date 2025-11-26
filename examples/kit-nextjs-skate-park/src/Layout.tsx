@@ -73,4 +73,5 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   );
 };
 
+
 export default Layout;
