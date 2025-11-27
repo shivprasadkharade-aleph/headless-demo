@@ -1,0 +1,76 @@
+﻿---
+ID: "93b6d3e9-e732-460a-810c-9af06865ded6"
+Parent: "a085ae04-1632-405e-a48b-49e7d1db0cad"
+Template: "5aa8304f-8f94-454d-9857-e88f8882fde7"
+Path: /sitecore/content/Headless site collection/Basic/Home/Contact/Data/Teaser/Card1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0edd8470-18d5-4da6-85a6-d059ae9116be"
+      Hint: Title
+      Value: Card 11
+    - ID: "19537d91-44ff-4576-a10b-2733432733e7"
+      Hint: Text
+      Value: Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid blanditiis eligendi qui.Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid blanditiis eligendi qui
+    - ID: "230a6218-259a-4b5e-ae55-fdce8d3823d8"
+      Hint: Image
+      Value: |
+        <image mediaid="{39147936-5BFD-4C49-A3FD-E699E67E234E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251127T072824Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "baf36638-7c1b-4f08-9188-c034f448b445"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T081443Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0edd8470-18d5-4da6-85a6-d059ae9116be"
+      Hint: Title
+      Value: Card 11
+    - ID: "19537d91-44ff-4576-a10b-2733432733e7"
+      Hint: Text
+      Value: Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid blanditiis eligendi qui.Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid blanditiis eligendi qui
+    - ID: "230a6218-259a-4b5e-ae55-fdce8d3823d8"
+      Hint: Image
+      Value: |
+        <image mediaid="{39147936-5BFD-4C49-A3FD-E699E67E234E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251127T072824Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49bf612f-36d3-4e24-bb49-675d23139a73"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T154342Z
