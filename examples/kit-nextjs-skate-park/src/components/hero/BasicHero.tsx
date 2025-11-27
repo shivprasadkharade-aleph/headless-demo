@@ -32,7 +32,7 @@ export const Default = (props: ContentBlockProps): JSX.Element => {
 
   return (
 
-    <div className="container-wrapper"><div className="component container-default col-12 container">
+    <div className="container-wrapper"><div className="">
       <section className="hero">
         <div className="hero__media">
           <ContentSdkImage className="hero__img" field={props.fields.Image} />
