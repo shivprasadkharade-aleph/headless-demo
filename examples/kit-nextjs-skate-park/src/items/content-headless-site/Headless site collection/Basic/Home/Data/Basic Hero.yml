@@ -1,0 +1,75 @@
+﻿---
+ID: "4b2b50d3-22d7-416f-a757-91c52350d8d1"
+Parent: "01e4af99-e127-4460-9974-48affaff7bf6"
+Template: "fc90ed25-80eb-4851-b405-677ad211b13e"
+Path: /sitecore/content/Headless site collection/Basic/Home/Data/Basic Hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17e34a8a-c10b-4be3-82e0-580bf085e351"
+      Hint: SubText
+      Value: "Build faster — launch sooner. A clean hero banner using an actual image element!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251125T193538Z
+    - ID: "68904ce7-1443-4588-9085-4e3304a1dca3"
+      Hint: Link
+      Value: |
+        <link text="View more" linktype="external" url="https://www.google.com/" anchor="" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c922c4e-cf59-4c97-855b-deff4fe572e8"
+    - ID: "9dd43566-b57f-4155-aed2-a8e6a326f7bb"
+      Hint: Title
+      Value: Forever together new
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T082514Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17e34a8a-c10b-4be3-82e0-580bf085e351"
+      Hint: SubText
+      Value: 英文版本
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251127T144039Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "68904ce7-1443-4588-9085-4e3304a1dca3"
+      Hint: Link
+      Value: |
+        <link text="View more" linktype="external" url="https://www.google.com/" anchor="" target="_blank" />
+    - ID: "83dd77f1-7d06-44af-bc83-fd22be6182c0"
+      Hint: Image
+      Value: |
+        <image mediaid="{2FFB9875-19B2-4764-AD76-C66ECB3A2FAC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eeeef823-6ef5-4def-be52-9ef2894f474c"
+    - ID: "9dd43566-b57f-4155-aed2-a8e6a326f7bb"
+      Hint: Title
+      Value: 網站有中
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T144200Z

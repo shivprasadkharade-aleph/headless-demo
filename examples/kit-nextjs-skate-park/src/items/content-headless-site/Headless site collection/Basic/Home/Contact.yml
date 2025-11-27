@@ -1,0 +1,138 @@
+﻿---
+ID: "f8ab212f-bea6-4abd-b1e7-1fd424258dd3"
+Parent: "478ffa9d-2056-4d9a-9591-d79bf913c2b9"
+Template: "64555726-99ed-4271-b4bc-08e8edba3ee6"
+Path: /sitecore/content/Headless site collection/Basic/Home/Contact
+BranchID: "aa757cc9-f2da-4f78-a33d-9d382d5fcf92"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{897203A4-18FC-4073-BEC7-00F9F92478E7}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8a1abdce-0fbe-4d56-978f-3f8dcb1c9008"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7E637458-C4C9-4354-B4E4-607DA543A545}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bA7141EC6-5F2F-4200-A2E0-F37E674C1985%7d%7c%7bE172FADD-B74E-4A55-88B3-C7926B8ADDFA%7d%7c%7bA21EEA58-5F9A-4EBC-B7C4-9680B47ACA93%7d%7c%7bE71F15F5-976F-4CDC-B664-3580EB521165%7d%7c%7bF1F85BCE-FE02-4FE4-B1CF-79CA7A86A493%7d%7c%7b11B9293E-ABD2-400F-A1D1-CAAF51B55F04%7d%7c%7bE42DC6B2-B1BA-44F3-919C-919BEFD478B1%7d%7c%7b262BA044-98E4-44F3-BD11-44C2448BD37D%7d%7c%7bB306BF88-77D3-4FA1-9AD3-58796E85CA2E%7d%7c%7b3AE15F4A-EFA5-48C6-A128-5F97098C0362%7d%7c%7b0E2E9451-1D0E-49D5-B7C7-9993F6BD3C04%7d%7c%7b10F6A243-C803-4460-A9CB-94AB19F4CA7E%7d%7c%7bBC00E6F1-DCF3-421F-81F1-E9AAE236589D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{E7573F46-A247-4117-ABE5-BAC4094EEF0E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b959FDFBB-4691-4A17-816F-7A5330B8216A%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b4AD9688D-5C20-42C2-A7C6-F0861F3837E7%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B8E694EC-3576-4CC6-8628-AEE286A9AB38}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{EF9807CE-48E3-4DDD-8234-93C8D6E3DB14}"
+              p:before="*"
+              s:ds="{A085AE04-1632-405E-A48B-49E7D1DB0CAD}"
+              s:id="{C7949632-BB02-4BDF-BAC4-E459B1710C3E}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251125T120538Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contact
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "65252661-a347-4379-a86e-2b99ff842771"
+      Hint: Title
+      Value: Contact
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d3970aa-0471-47b8-8160-f5a6cbb06b1c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T173855Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "aa559067-7ce9-42a9-a419-a3a8d2c95307"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 接触
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{EF9807CE-48E3-4DDD-8234-93C8D6E3DB14}"
+              p:before="*"
+              s:ds="{A085AE04-1632-405E-A48B-49E7D1DB0CAD}"
+              s:id="{C7949632-BB02-4BDF-BAC4-E459B1710C3E}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251125T120538Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "65252661-a347-4379-a86e-2b99ff842771"
+      Hint: Title
+      Value: Contact
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d5f3270-ed22-4dc2-8344-a1361eda1525"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T173855Z
