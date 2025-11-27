@@ -1,0 +1,26 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "headlessdemo",
+  "items": {
+    "includes": [
+      {
+        "name": "content-headless-site",
+        "path": "/sitecore/content/Headless site collection",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "feature-templates",
+        "path": "/sitecore/templates/Feature/JSS Experience Accelerator/Page Content",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "feature-temrenderings",
+        "path": "/sitecore/layout/Renderings/Feature/JSS Experience Accelerator/Page Content",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

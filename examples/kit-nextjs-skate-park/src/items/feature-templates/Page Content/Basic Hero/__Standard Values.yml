@@ -1,0 +1,38 @@
+﻿---
+ID: "fe57c643-4816-4694-8f9f-e2f326bce803"
+Parent: "fc90ed25-80eb-4851-b405-677ad211b13e"
+Template: "fc90ed25-80eb-4851-b405-677ad211b13e"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Basic Hero/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251125T193059Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "83dd77f1-7d06-44af-bc83-fd22be6182c0"
+      Hint: Image
+      Value: |
+        <image mediaid="{2FFB9875-19B2-4764-AD76-C66ECB3A2FAC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "155b4e7a-3e20-4c67-a685-bae11de31c2d"
+    - ID: "9dd43566-b57f-4155-aed2-a8e6a326f7bb"
+      Hint: Title
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251125T193304Z

@@ -1,0 +1,81 @@
+﻿---
+ID: "a085ae04-1632-405e-a48b-49e7d1db0cad"
+Parent: "28530278-2310-4ad8-96fc-ecf1dd2faa8c"
+Template: "06a3d468-3ce7-4982-b6cd-194832fb60ba"
+Path: /sitecore/content/Headless site collection/Basic/Home/Contact/Data/Teaser
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251127T072756Z
+    - ID: "57c559ae-9d52-4177-b16b-fbbbc06251da"
+      Hint: Title
+      Value: Our Services
+    - ID: "84af4763-da28-4eeb-93e6-d2bb18208f11"
+      Hint: Cards
+      Value: |
+        {93B6D3E9-E732-460A-810C-9AF06865DED6}
+        {BBE2DE5D-33CB-4098-B2B8-8A646CCE5972}
+        {41A1C729-FB73-4E67-8AFD-39265C01D65F}
+        {12205FC2-B25F-487D-B7A9-2AA2AB463403}
+        {A301A0B5-D129-4691-A9D6-9DECD834D21D}
+        {6ED57DB1-9972-4613-8223-110B6BE4BF91}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1c66aa93-2281-43df-995e-17b0b85157ec"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T083026Z
+    - ID: "e13b310c-b55e-4431-b84d-ea1ff62024ad"
+      Hint: Subtitle
+      Value: Had creeping had, appear that made living morning over brought stars likeness first, said Don't god Upon them days them.
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251127T072756Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "57c559ae-9d52-4177-b16b-fbbbc06251da"
+      Hint: Title
+      Value: Our Services
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "84af4763-da28-4eeb-93e6-d2bb18208f11"
+      Hint: Cards
+      Value: |
+        {93B6D3E9-E732-460A-810C-9AF06865DED6}
+        {BBE2DE5D-33CB-4098-B2B8-8A646CCE5972}
+        {41A1C729-FB73-4E67-8AFD-39265C01D65F}
+        {12205FC2-B25F-487D-B7A9-2AA2AB463403}
+        {A301A0B5-D129-4691-A9D6-9DECD834D21D}
+        {6ED57DB1-9972-4613-8223-110B6BE4BF91}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e599db84-a12f-4611-8856-55c15fc6187c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T154342Z
+    - ID: "e13b310c-b55e-4431-b84d-ea1ff62024ad"
+      Hint: Subtitle
+      Value: Had creeping had, appear that made living morning over brought stars likeness first, said Don't god Upon them days them.

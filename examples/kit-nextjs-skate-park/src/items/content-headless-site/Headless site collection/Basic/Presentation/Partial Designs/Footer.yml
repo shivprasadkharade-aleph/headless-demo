@@ -1,0 +1,107 @@
+﻿---
+ID: "28cd002a-f8c8-4c4b-bfe6-14dc33a069c5"
+Parent: "d0b4a4e3-7ff8-4fdc-b273-01b292cdcca1"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Headless site collection/Basic/Presentation/Partial Designs/Footer
+BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5637FE28-3049-4440-A8FE-33587B43153F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3142d623-781f-4908-8bd5-0a07a2f3a6ad"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{771BF6DB-6194-400F-BCA9-4F138E1260F1}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bC9F2C0D6-6903-4272-BD42-0762053A9727%7d%7c%7b3644BCF5-1877-4DA3-A60F-7DB98C0B9574%7d%7c%7bA7141EC6-5F2F-4200-A2E0-F37E674C1985%7d%7c%7bE172FADD-B74E-4A55-88B3-C7926B8ADDFA%7d%7c%7bA21EEA58-5F9A-4EBC-B7C4-9680B47ACA93%7d%7c%7bE71F15F5-976F-4CDC-B664-3580EB521165%7d%7c%7bF1F85BCE-FE02-4FE4-B1CF-79CA7A86A493%7d%7c%7b11B9293E-ABD2-400F-A1D1-CAAF51B55F04%7d%7c%7bE42DC6B2-B1BA-44F3-919C-919BEFD478B1%7d%7c%7b262BA044-98E4-44F3-BD11-44C2448BD37D%7d%7c%7bB306BF88-77D3-4FA1-9AD3-58796E85CA2E%7d%7c%7b3AE15F4A-EFA5-48C6-A128-5F97098C0362%7d%7c%7b0E2E9451-1D0E-49D5-B7C7-9993F6BD3C04%7d%7c%7b10F6A243-C803-4460-A9CB-94AB19F4CA7E%7d%7c%7bBC00E6F1-DCF3-421F-81F1-E9AAE236589D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{95BFB3B4-7F88-4367-BEE1-6F59182E744B}"
+          p:after="r[@uid='{771BF6DB-6194-400F-BCA9-4F138E1260F1}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b65429775-383A-4B4B-8DBA-3506820E9C12%7d&amp;FieldNames=%7b4AD9688D-5C20-42C2-A7C6-F0861F3837E7%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{2BBADC81-F240-404B-8BD5-DD310B304B77}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b65429775-383A-4B4B-8DBA-3506820E9C12%7d&amp;FieldNames=%7b4AD9688D-5C20-42C2-A7C6-F0861F3837E7%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDB00EAA-5ACA-4C4D-8B88-3195D992F980}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251125T120539Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec73f955-e953-40c1-8b3a-7183b7e04c0a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251125T120547Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "35f38bc7-a585-4cc2-9255-0b283cbd70e9"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251125T120539Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5db84703-1e42-4671-9c1c-6b68a3eec358"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shivprasad.kharade@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T154356Z
