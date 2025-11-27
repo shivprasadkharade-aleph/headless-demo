@@ -1,29 +1,36 @@
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-import { FlatCompat } from "@eslint/eslintrc";
+// eslint.config.mjs  ← recommended filename for Next.js 15+
+import { defineConfig, globalIgnores } from "eslint/config";
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTs from "eslint-config-next/typescript";
+import prettierConfig from "eslint-config-prettier/flat";
+import prettierPlugin from "eslint-plugin-prettier";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+export default defineConfig([
+  ...nextVitals,
+  ...nextTs,
 
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
+  // Disable all ESLint styling rules that conflict with Prettier
+  prettierConfig,
 
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
-  { 
+  // Prettier as a plugin so we can customize its rule level
+  {
+    plugins: {
+      prettier: prettierPlugin,
+    },
     rules: {
-      // Don't force alt for <Image/> (sourced from Sitecore media)
+      // This is the exact fix you need for the CI failures
+      "prettier/prettier": ["warn", { endOfLine: "auto" }],
+
+      // Your Sitecore/next/image alt-text exception
       "jsx-a11y/alt-text": "off",
     },
-    ignores: [
-      "node_modules/**",
-      ".next/**",
-      "out/**",
-      "build/**",
-      "next-env.d.ts",
-    ],
   },
-];
 
-export default eslintConfig;
+  globalIgnores([
+    "node_modules/**",
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts",
+  ]),
+]);
