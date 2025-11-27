@@ -28,7 +28,6 @@ type ContentBlockProps = BasicHeroProps & {
 
 export const Default = (props: ContentBlockProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  console.log('BasicHero props', props.fields);
 
   return (
 
