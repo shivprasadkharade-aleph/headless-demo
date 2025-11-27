@@ -31,6 +31,10 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         ) : (
           <>
             <header>
+               <link
+          href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+          rel="stylesheet"
+        />
               <div id="header">
                 {route && (
                   <AppPlaceholder
