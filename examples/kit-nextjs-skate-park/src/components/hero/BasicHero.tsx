@@ -1,16 +1,11 @@
 import React, { JSX } from 'react';
-import ContentBlock from 'components/content-block/ContentBlock';
 import { ComponentParams, ComponentRendering } from '@sitecore-content-sdk/nextjs';
 import {
   Text,
-  RichText,
   Field,
-  withDatasourceCheck,
-  GetComponentServerProps,
   ImageField,
   LinkField,
   NextImage as ContentSdkImage,
-  Link as ContentSdkLink,
 } from '@sitecore-content-sdk/nextjs';
 interface BasicHeroProps {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -27,7 +22,6 @@ type ContentBlockProps = BasicHeroProps & {
 };
 
 export const Default = (props: ContentBlockProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
 
   return (
 

@@ -2,14 +2,8 @@ import React, { JSX } from 'react';
 import { ComponentParams, ComponentRendering } from '@sitecore-content-sdk/nextjs';
 import {
   Text,
-  RichText,
   Field,
-  withDatasourceCheck,
-  GetComponentServerProps,
   ImageField,
-  LinkField,
-  NextImage as ContentSdkImage,
-  Link as ContentSdkLink,
   Text as ContentSdkText,
 } from '@sitecore-content-sdk/nextjs';
 
