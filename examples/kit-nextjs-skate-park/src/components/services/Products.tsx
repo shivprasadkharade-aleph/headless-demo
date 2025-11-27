@@ -177,7 +177,7 @@ export const Default = async (props: ProductsProps): Promise<JSX.Element> => {
               <div>
                 <span style={{ 
                   display: 'inline-block', 
-                  fontSize: '0.75rem', 
+                  fontSize: '1.45rem', 
                   padding: '4px 10px', 
                   backgroundColor: '#f0f4f8',
                   color: '#4a5568', 
