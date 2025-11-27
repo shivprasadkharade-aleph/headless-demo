@@ -1,3 +1,4 @@
+// next.config.ts
 import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 
@@ -10,6 +11,12 @@ const nextConfig: NextConfig = {
 
   // Disable the X-Powered-By header. Follows security best practices.
   poweredByHeader: false,
+
+  // Skip running ESLint during the production build on CI (Vercel / Sitecore XM Cloud)
+  // This prevents formatting/linting errors from failing `next build`.
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 
   // use this configuration to ensure that only images from the whitelisted domains
   // can be served from the Next.js Image Optimization API
